@@ -7,7 +7,7 @@ Feature: Login to Amazon app
     When user enter "<emailId>" and click on continue option
     When user enter "<password>"
     When user click on login button
-    Then User should be logged in successfully
+    Then User should be logged in successfully to app
 
     Examples: 
       | emailId    | password   |
